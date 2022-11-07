@@ -17,3 +17,11 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+task (startClient, dependsOn:assemble, type: JavaExec) {
+    standardInput = System.in
+    group = "deployment"
+    description = "Starts an instance of simple-redis-client"
+    main = "org.example.Main"
+    classpath = sourceSets.test.runtimeClasspath
+}
