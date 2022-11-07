@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.dto.RequestDTO;
+import org.example.dto.ResponseDTO;
+
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.Scanner;

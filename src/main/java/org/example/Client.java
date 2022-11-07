@@ -1,5 +1,8 @@
 package org.example;
 
+import org.example.dto.RequestDTO;
+import org.example.dto.ResponseDTO;
+
 import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
